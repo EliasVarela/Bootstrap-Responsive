@@ -1,0 +1,354 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Sawarabi Mincho', serif;
+}
+
+
+                        /*-------------Header---------------------*/
+
+header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 5px;
+        padding-top: 10px;
+        background-color: rgba(2, 0, 99, 0.774);
+        color: rgb(14, 13, 13);
+        text-shadow: 21px 13px 6px rgba(105, 127, 187, 0.94);
+        border: #656669 solid 2px;
+        }
+h1{
+        text-align: center;
+        margin-bottom: 15px;}
+
+ul,
+ol{list-style: none;}
+
+header nav ul{
+                display: flex;
+                justify-content: space-between;}
+
+                
+header nav ul li a {color:black;}
+
+.icono:hover{display: flex;
+                transform: scale(2);
+                position: 200px;}
+.icono img{ 
+        width:100px;
+        height:100px;
+        }
+
+.icono{text-align: center;}
+
+header h1, a{background: linear-gradient(to left,rgb(214, 208, 208),rgb(148, 145, 145),rgb(30, 128, 46));
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;}
+a{text-decoration: none;}
+
+                        /*Header----@Media-480px------------------------*/
+
+@media(min-width:480px){
+header{
+        background-image: linear-gradient(to right, #243949 0%, #3c5baf 100%);}
+
+header h1, a{background: linear-gradient(to left,rgb(214, 208, 208),rgb(148, 145, 145),rgb(30, 128, 46));
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;}
+
+header nav a {
+                font-size: 22px;}
+}
+
+                        /*Header----@Media-768px---------------------------*/
+@media(min-width:768px){
+header{background-image: none;
+        background-image: linear-gradient(to right, #0c70bdc4 1%, #04091a 100%);}
+header nav a{font-size: 30px;}
+}
+
+                        /*Header----@Media-1024----------------------------------*/
+
+@media(min-width:1024px){
+header{flex-direction: row;
+        justify-content: space-between;
+        align-items: center;}
+
+header h1{font-size:45px;}
+
+header nav {width:35%;
+                margin-right: 20px;}
+
+header nav a{font-size: 25px;}
+}
+@media(min-width:1025px){
+header{background-image: none;}
+header{background-image: linear-gradient(to right, #092e4bc4 1%, #04091a 100%);}
+header nav a{font-size: 25px;}
+header nav{width: 45%;}
+}
+
+
+/*------------------Boody------------------*/
+
+body{background-color: #243949;
+}
+main{padding: 15px;}
+main h2{text-align: center;
+        margin: 60px;}
+main section h2 ,p{margin-top: 40px;
+                text-align: center;}
+
+.img-1 img{width:100%;}
+
+.img-2 img{width:100%;}
+.img-2{margin-top: 100px;}
+.img2:hover{transform: translateX(200px);}
+.img2-{transition-duration: 2s;
+        transition-duration: 700ms;}
+
+
+                        /*Body------@Media-480px--------------------------*/
+
+@media(min-width:480px){
+body{font-size: 20px;
+        background-color: #2a3e80;}
+        
+}
+
+                        /*Body-----@Media-768px------------------------*/
+
+@media(min-width:768px){
+body{  font-size:25px;
+        background-color:rgb(25, 78, 95);}
+}
+                /*Body------@Media-1024--------------------------*/
+
+@media(min-width:1024px){
+body{background-image: linear-gradient(to right, #06111ac4 1%, #6b8696 100%);}
+body main,footer{background: linear-gradient(to left,rgb(214, 208, 208),rgb(148, 145, 145),rgb(30, 128, 46));
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;}
+}
+                        /*---------------------ASIDE--------------------*/
+
+aside{
+        border: black solid 3px;}
+aside{display: flex;
+        flex-direction: column;
+        align-items: center;}
+aside ul{margin: 35px;}
+aside ul li{    border: black solid;
+                margin-bottom:  200px;
+                font-size: 30px;
+                color: #04091a;}
+aside ul li a {background-color: none;
+                -webkit-background-clip: none;
+                background-clip: none;
+                -webkit-text-fill-color: #04091a;}
+
+/*---------------------Footer--------------------*/
+footer{display: flex;
+        flex-direction: column;
+        border: #656669 solid 3px;
+        font-size: 15px;}
+
+footer li ,div{display: inline-block;}
+
+footer ul{display: flex;
+        justify-content: space-around;
+        margin-top: 20px;}
+
+.twiter img{height:45px;
+        width: 45px;}
+
+.youtube img{height: 45px;
+        width: 45px;}
+
+.instagram img{height:45px;
+                width: 45px;}
+
+.facebook img{height: 45px;
+                width: 45px;}
+h3{flex-direction: row;}
+                        /*Footer-------------@Media-480--------------------*/
+
+@media(min-width:480px){
+footer{font-size:20px;}
+}
+                        /*Footer---------@Media-768px---------------------*/
+@media(min-width:768px){
+footer{font-size: 22px;}
+
+.twiter img{height:60px;
+        width: 60px;}
+
+.youtube img{height: 60px;
+        width: 60px;}
+
+.instagram img{height:60px;
+        width: 60px;}
+
+.facebook img{height: 60px;
+        width: 60px;}
+
+}
+                /*Footer---------------@Media-1024--------------------*/
+
+@media(min-width:1024px){
+footer{font-size: 30px;}
+
+.twiter img{height:100x;
+        width: 100px;}
+
+.youtube img{height: 100px;
+        width: 100px;}
+
+.instagram img{height:100px;
+        width: 100px;}
+
+.facebook img{height: 100px;
+        width: 100px;}
+}
+                        /*----LAYOUT---GRID----INDEX*/
+
+.contenedor-index{
+                display: grid;
+                grid-template-columns:80% 1%;
+                grid-template-rows: 10% 60% 10% 10% 10%;
+                grid-template-areas: "header header header"
+                                        "section section aside"
+                                        "section section aside"
+                                        "footer footer footer";}
+
+header{grid-area: header;}
+
+main{   grid-area:section;
+        grid-row-start:2;
+        grid-row-end: 3;
+        grid-column-start:0;
+        grid-column-end:2;}
+aside{grid-area: aside;}
+
+footer{grid-area: footer;
+        grid-row-start:6;
+        grid-row-end:7;
+        }
+
+/*--------------------------------Seccion------------------------Galeria.html----------------------------------------------------*/
+
+.contenedor-galeria{        
+                display: grid;
+                grid-template-columns:85% 15%;
+                grid-auto-rows:auto ;
+                grid-template-areas:"header header header "
+                                        "section section aside"
+                                        "section section aside"
+                                        "footer footer footer";}
+.header-galeria{grid-area: header;}
+.main-galeria{grid-area:section;
+                grid-row-start: 2;
+                grid-row-end: 5;
+                }
+.footer-galeria{grid-area: footer;
+                grid-row-start: 5;
+                grid-row-end: 6;}
+
+.item-1{background-image:url(../img/galeria-fantasmas/collardeopalo.webp);
+        background-size: 100% 100% ;
+        transition-duration: 2s;
+        transition-duration: 700ms;}
+.item-1:hover{transform:translateX(690px);}
+
+.item-2{background-image: url(../img/galeria-fantasmas/monedasdejudas.jpg);
+        background-size: 100% 100%;
+        transition-duration: 2s;
+        transition-duration: 700ms;}
+.item-2:hover{transform: scale(2);}
+
+.item-3{background-image: url(../img/galeria-fantasmas/olla.jpg);
+        background-size: 100% 100%;
+        transition-duration: 2s;
+        transition-duration: 700ms;}
+.item-3:hover{transform: scale(2);}
+.item-4{background-image: url(../img/galeria-fantasmas/cajadibuk.jpg);
+        background-size: 100% 100%;
+        transition-duration: 2s;
+        transition-duration: 700ms;}
+.item-4:hover{transform: scale(2);}
+
+.item-5{background-image: url(../img/galeria-fantasmas/niño.jpg);
+        background-size:100% 100%;
+        transition-duration: 2s;
+        transition-duration: 700ms;}
+.item-5:hover{transform: scale(2);}
+
+.item-6{background-image: url(../img/galeria-fantasmas/robert.jpg);
+        background-size: 100% 100%;
+        transition-duration: 2s;
+        transition-duration: 700ms;}
+.item-6:hover{transform: scale(2);}
+
+.item-7{background-image: url(../img/galeria-fantasmas/jarron.jpg);
+        background-size:100% 100%;
+        transition-duration: 2s;
+        transition-duration: 700ms;}
+.item-7:hover{transform: scale(2);}
+
+.item-8{background-image: url(../img/galeria-fantasmas/espejo.jpg);
+        background-size: 100% 100%;
+        transition-duration: 2s;
+        transition-duration: 700ms;}
+.item-8:hover{transform: scale(2);}
+
+.item-9{background-image: url(../img/galeria-fantasmas/annabelle.jpg);
+        background-size:100% 100%;
+        transition-duration: 2s;
+        transition-duration: 700ms;}
+.item-9:hover{transform: scale(2);}
+
+.pack-grid{height:100vh;
+        width: 100%;
+        display: grid;} 
+
+.section-grid{ 
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                /* grid-auto-rows:auto ; */
+                width: 100%;
+                height: 100%;
+                gap: 15px
+                }
+
+
+        /*----------------------------------------------------------------Seccion----------- Se-Parte-----------------------------------------------*/
+
+.main-form{display: flex;
+        flex-direction: column;}
+.cont-form ,input{display: flex;
+                flex-direction: column;
+                font-size: 30px;}
+.contenedor-separte{ display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 10% 60% 20% 10%;
+                grid-template-areas:"header header header "
+                                        "section section section"
+                                        "section section section "
+                                        "footer footer footer"
+                                        "footer footer footer";} 
+header{grid-area: header;}
+
+section{grid-area:section;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 3;}
+.cont-form,input {color: #04091a;}
+.submit,.fecha, .reset{
+        color: black;}
