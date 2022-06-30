@@ -1,57 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/css_bootstrap.css">
-        <meta name="keywords" content="Fantasmas,3am,oscuridad,ovnis,paranormal,ufo">
-        <meta name="description" content="Objetos que se mueven solos , avistamiento de ovnis , exploraciones paranormales">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
-        <link rel="icon" href="../img/icono-fantasma.png" alt="iconofantasma">
-        <title>le temes a la oscuridad?</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta name="keywords" content="Fantasmas,3am,oscuridad,ovnis,paranormal,ufo">
+    <meta name="description" content="Objetos que se mueven solos , avistamiento de ovnis , exploraciones paranormales">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/icono-fantasma.png" alt="iconofantasma">
+    <link rel="stylesheet" href="../css/css_bootstrap.css">
+    <title>le temes a la oscuridad?</title>
 <body class="contenedor-separte">
     <header>
-        <div class="icono">
-            <a href="../index.html"><img src="../img/icono-fantasma.png" alt="Fantasmita" ></a> 
-        </div>
-        <h1>Le temes a la oscuridad?</h1>
-        <nav>
-            <ul>
-                <li><a href="../secciones/separte.html">Se Parte</a></li>
-                <li><a href="../secciones/galeria.html">Galeria</a></li>
-                <li><a href="../secciones/relatos.html">Relatos Paranormales</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="main-form">
-        <section>
-            <h1>¡Registrate Para Ser Parte Del Equipo Caza Fantasmas!</h1>
-            <div class="cont-form">
-                <form>
-                    <label for="form-nombre">Su nombre :<input type="name" placeholder="Nombre" clas="form-nombre" required></label>
-
-                    <label for="form-apellido">Su Apellido :<input type="Apellido" placeholder="Apellido" class="form-apellido" required></label>
-
-                    <label for="form-numero">Numero Telefonico :<input type="number" placeholder="Numero De Cel" class="form-numero" required></label>
-
-                    <label for="form-calle">Direccion :<input type="text" placeholder="Calle Y Altura" class="form-calle" required></label>
-
-                    <label for="form-arma">Herramienta: <input type="text" placeholder="Herramienta Favorita" class="form-arma" required></label>
-
-                    <label for="form-email">Email :<input type="email" placeholder="Ingrese su email" class="form-email" required></label>
-
-                    <label for="form-fecha">Fecha del cupon :<input type="date" placeholder="" class="fecha"></label>
-
-                    <input type="submit" class="submit">
-
-                    <input type="reset" class="reset">
+        <nav class="navbar nav-header navbar-expand-lg bg-black">
+            <div class="container-fluid col-12 nav-header">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/icono-fantasma.png" alt="fantasmita" width="60" height="60" class="d-inline-block align-text-top">
+                    Le Temes A La Oscuridad?
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll nav-subclass" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./relatos.html">Relatos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../secciones/separte.html">Sé Parte</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Galeria
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="../secciones/Ovnis.html">Ovnis</a></li>
+                        <li><a class="dropdown-item" href="../secciones/Fantasmas.html">Fantasmas!</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
-            </div>
-        </section>
+                </div>
+            </div></nav>
+    </header>
+    <main class="container col-12 main-content">
+        <section class="row">
+            <h1>¡Registrate Para Ser Parte Del Equipo Caza Fantasmas!</h1>
+            <form class="row g-3 needs-validation form-1" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
+                  <div class="valid-feedback">
+                    Todo Ok!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" required>
+                  <div class="valid-feedback">
+                    Todo bien!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Nombre de Usuario</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">1-6 Letras y 2 numeros</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="1-6 L y 2 N" required>
+                    <div class="invalid-feedback">
+                      Por favor complete el usuario.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Pais</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Por Favor valide su pais.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">Provincia</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Buenos Aires
+                    </option>
+                    <option>Santa Fe</option>
+                    <option>Cordoba</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    PProvicia Correcta?
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="validationCustom05"placeholder="Email" required>
+                  <div class="invalid-feedback">
+                    Por favor corrobore el Email.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Acepta los derechos y terminos ?
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+        </section> 
     </main>
+    </aside>
     <footer>
         <h3>Si le temes a la oscuridad sabras que estos Derechos son Reservados!!!</h3>
         <p class="copy">Copyright 2022-2040 © </p>
