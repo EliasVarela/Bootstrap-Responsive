@@ -1,190 +1,103 @@
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Sawarabi Mincho', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sawarabi Mincho", serif;
 }
 
-/*------------------Boody------------------*/
+.titulo-carru {
+  padding: 10px;
+  text-align: center;
+}
+
+aside p {
+  font-size: 1em;
+}
+aside ul {
+  margin: -12px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+aside ul li {
+  margin: 10px;
+  padding-right: 0px;
+  font-size: 1em;
+}
+aside ul li a {
+  text-decoration: none;
+}
+
+footer {
+  border: 1px solid black;
+  margin: 15px;
+}
+footer h3 {
+  text-align: center;
+}
+footer .copy {
+  text-align: right;
+}
+footer p {
+  text-align: center;
+  font-size: 30px;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+footer .twiter {
+  height: 50px;
+  width: 50px;
+}
+footer .twiter img {
+  height: 100%;
+  width: 100%;
+}
+footer .youtube {
+  height: 50px;
+  width: 50px;
+}
+footer .youtube img {
+  height: 100%;
+  width: 100%;
+}
+footer .instagram {
+  height: 50px;
+  width: 50px;
+}
+footer .instagram img {
+  height: 100%;
+  width: 100%;
+}
+footer .facebook {
+  height: 50px;
+  width: 50px;
+}
+footer img {
+  height: 100%;
+  width: 100%;
+}
 
 body {
-        background-image: linear-gradient(to right, #3f1e63 0%, #15171b 100%);
+  background-image: linear-gradient(to right, #3f1e63 0%, #15171b 100%);
+}
+body p {
+  color: white;
 }
 
-
-h1 {
-        text-align: center;
-}
-
-body p,
 h1,
 h2,
 h3,
 a {
-        color: aliceblue;
+  color: aliceblue;
 }
 
-.titulo-carru {
-        padding: 30px;
-        text-align: center;
+/*IMAGENES DEL INDEX*/
+.titulo-h2 {
+  font-size: 27px;
 }
 
-/*---------------------Footer--------------------*/
-footer h3 {
-        text-align: center;
-}
-
-.copy {
-        text-align: right;
-}
-
-footer p {
-        text-align: center;
-        font-size: 30px;
-}
-
-footer {
-        border: 1px solid black;
-        margin: 15px;
-}
-
-.twiter {
-        height: 50px;
-        width: 50px;
-}
-
-.twiter img {
-        height: 100%;
-        width: 100%;
-}
-
-.youtube {
-        height: 50px;
-        width: 50px;
-}
-
-.youtube img {
-        height: 100%;
-        width: 100%;
-}
-
-.instagram {
-        height: 50px;
-        width: 50px;
-}
-
-.instagram img {
-        height: 100%;
-        width: 100%;
-}
-
-.facebook {
-        height: 50px;
-        width: 50px;
-}
-
-.facebook img {
-        height: 100%;
-        width: 100%;
-}
-
-footer ul {
-        display: flex;
-        list-style: none;
-        justify-content: space-between;
-        padding: 0;
-}
-
-/*ASIDE*/
-
-aside ul {
-        padding: 10px;
-        list-style: none;
-}
-
-aside ul li {
-        margin: 10px;
-        padding: 10px;
-}
-
-aside ul li a {
-        text-decoration: none;
-}
-
-                        /*--------------------SECCION-GALERIA---------------------*/
-
-
-.contenedor-grilla{margin: 40px;}
-.contenedor-grid{display: grid;
-                height: 100vh;
-                gap:14px;
-                grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
-                grid-template-rows:repeat(6,1fr);
-                grid-template-areas:    "img1 img1 img1 img2 img2 img3 img3"
-                                        "img1 img1 img1 img2 img2 img3 img3"
-                                        "img1 img1 img1 img4 img4 img4 img4"
-                                        "img5 img5 img5 img4 img4 img4 img4"
-                                        "img5 img5 img5 img6 img6 img6 img6"
-                                        "img7 img7 img7 img6 img6 img6 img6"
-                                        "img7 img7 img7 img8 img8 img8 img8"
-                                        "img7 img7 img7 img8 img8 img8 img8"
-}
-.contenedor-grid>img{width: 100%;
-                        height: 100%;
-                }
-.fantasma-img1{grid-area: img1; 
-                transition-duration: 2s;
-                transition-duration: 700ms;
-}
-.fantasma-img1:hover{transform: scale(1.5);
-}
-
-.fantasma-img2{grid-area: img2;
-                transition-duration: 2s;
-                transition-duration: 700ms;
-}
-.fantasma-img2:hover{transform: scale(1.5);}
-
-.fantasma-img3{grid-area: img3;
-                transition-duration: 2s;
-                transition-duration: 700ms;
-}
-.fantasma-img3:hover{transform: scale(1.5);}
-
-.fantasma-img4{grid-area: img4;
-                transition-duration: 2s;
-                transition-duration: 700ms;
-}
-.fantasma-img4:hover{transform: scale(1.5);}
-
-.fantasma-img5{grid-area: img5;
-                transition-duration: 2s;
-                transition-duration: 700ms;
-}
-.fantasma-img5:hover{transform: scale(1.5);}
-
-.fantasma-img6{grid-area: img6;
-                transition-duration: 2s;
-                transition-duration: 700ms;
-}
-.fantasma-img6:hover{transform: scale(1.5);}
-
-.fantasma-img7{grid-area: img7;
-                transition-duration: 2s;
-                transition-duration: 700ms;
-}
-.fantasma-img7:hover{transform: scale(1.5);}
-
-.fantasma-img8{grid-area: img8;
-                transition-duration: 2s;
-                transition-duration: 700ms;
-}
-.fantasma-img8:hover{transform: scale(1.5);}
-/* .fantasma-img9{grid-area: img9; */
-                
-
-
-/* .fantasma-img10{grid-area: img10;
-
-} */
-
+/*# sourceMappingURL=css_bootstrap.css.map */

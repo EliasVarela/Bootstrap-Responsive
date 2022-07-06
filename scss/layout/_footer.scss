@@ -1,0 +1,45 @@
+footer{ border: 1px solid black;
+    margin: 15px;
+
+        h3 {text-align: center;}
+        .copy {text-align: right;}
+
+        p {text-align: center;
+        font-size: 30px;}
+
+        ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0;}
+
+        .twiter {
+            height: 50px;
+            width: 50px;
+                    img {
+                        height: 100%;
+                        width: 100%;}
+}
+        .youtube {
+            height: 50px;
+            width: 50px;
+                    img{
+                        height: 100%;
+                        width: 100%;}
+}
+    
+        .instagram {
+            height: 50px;
+            width: 50px;
+                    img{
+                        height: 100%;
+                        width: 100%;}
+}
+        .facebook {
+            height: 50px;
+            width: 50px;}
+                    img{
+                        height: 100%;
+                        width: 100%;}
+
+}
