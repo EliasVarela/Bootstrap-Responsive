@@ -1,10 +1,19 @@
 @import "./base/reseteo";
 @import "./base/tipografia";
-@import "./componentes/carousel.scss";
-@import "./pages/relatos";
-@import "./pages/separte";
-@import "./pages/galeria";
+
+@import "./componentes/carousel";
+@import "./componentes/covers";
+@import "./componentes/dropdown";
+
 @import "./layout/aside";
 @import "./layout/footer";
+@import "./layout/forms";
 @import "./layout/grids";
-@import "./index";
+@import "./layout/header";
+
+@import "./pages/index";
+
+@import "./utilidades/funciones";
+@import "./utilidades/helpers";
+@import "./utilidades/mixins";
+@import "./utilidades/variables";

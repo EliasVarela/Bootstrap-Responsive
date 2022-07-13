@@ -2,16 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Sawarabi Mincho", serif;
 }
 
 .titulo-carru {
   padding: 10px;
   text-align: center;
 }
+.titulo-carru img {
+  width: 500px;
+  height: 500px;
+}
 
 aside p {
-  font-size: 1em;
+  font-size: 2em;
 }
 aside ul {
   margin: -12px;
