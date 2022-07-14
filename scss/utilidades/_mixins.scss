@@ -1,0 +1,11 @@
+//------------MIXINS-----------------
+
+@mixin font($margen,$tipografia){
+    margin: $margen;
+    font-family:$tipografia;
+}
+//-----------------Card-AITOR-SEPARTE---------------------
+@mixin card($largo,$font){
+    width:$largo;
+    font-family:$font;
+}

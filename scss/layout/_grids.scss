@@ -1,0 +1,51 @@
+/*-------------------Grid-De-Galeria----------------------------*/
+.contenedor-grilla{padding: 30px;
+                    margin: 50px;}
+.contenedor-grid{display: grid;
+                    grid-template-columns:1fr 1fr 1fr 1fr ;
+                    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+                grid-template-areas:"fantasma-img1 fantasma-img1 fantasma-img2 fantasma-img2"
+                                    "fantasma-img1 fantasma-img1 fantasma-img2 fantasma-img2"
+                                    "fantasma-img3 fantasma-img4 fantasma-img5 fantasma-img5"
+                                    "fantasma-img3 fantasma-img4 fantasma-img5 fantasma-img5"
+                                    "fantasma-img6 fantasma-img6 fantasma-img8 fantasma-img8"
+                                    "fantasma-img6 fantasma-img6 fantasma-img8 fantasma-img8"
+                                    "fantasma-img6 fantasma-img6 fantasma-img7 fantasma-img7";
+                                                    
+                gap: 30px;}
+                                                    .contenedor-grid > img{width: 100%;
+                                                        height: 100%;
+                                                    object-fit:cover;
+                                                    ;}
+.fantasma-img1{grid-area:fantasma-img1;
+            &:hover{filter: grayscale(90%);}}
+.fantasma-img2{grid-area:fantasma-img2;
+                &:hover{-webkit-transform:scale(1.3);
+                    transform:scale(1.3);
+                    transition:all .5s ease-in-out;
+                    }}
+.fantasma-img3{grid-area:fantasma-img3;
+                &:hover{-webkit-transform:scale(1.3);
+                    transform:scale(1.3);
+                    transition:all .5s ease-in-out}}
+.fantasma-img4{grid-area:fantasma-img4;
+                &:hover{-webkit-transform:scale(1.3);
+                    transform:scale(1.3);
+                    transition:all .5s ease-in-out}}
+.fantasma-img5{grid-area:fantasma-img5;
+                &:hover{-webkit-transform:scale(1.3);
+                    transform:scale(1.3);
+                    transition:all .5s ease-in-out}}
+.fantasma-img6{grid-area:fantasma-img6;
+                &:hover{-webkit-transform:scale(1.3);
+                    transform:scale(1.3);
+                    transition:all .5s ease-in-out}}
+.fantasma-img7{grid-area:fantasma-img7;
+                &:hover{-webkit-transform:scale(1.3);
+                    transform:scale(1.3);
+                    transition:all .5s ease-in-out}}
+.fantasma-img8{grid-area:fantasma-img8;
+                &:hover{-webkit-transform:scale(1.3);
+                    transform:scale(1.3);
+                    transition:all .5s ease-in-out}}

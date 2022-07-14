@@ -1,0 +1,38 @@
+/*----------------Variables---------------*/
+
+$color-fondo:linear-gradient(to right, #3f1e63 0%, #15171b 100%);
+
+//Color de la fuerte de la NAV
+
+$font-nav-colors:(
+            se-parte:rgb(20, 133, 26),
+            galeria:rgb(4, 81, 223),
+            relatos:rgb(17, 15, 15),
+            tu-anecdota:red,
+);
+.relatos-fnt{
+        color:map-get($font-nav-colors,"relatos");
+}
+.galeria-fnt{
+        color:map-get($font-nav-colors,"galeria")
+}
+.se-parte-fnt{color:map-get($font-nav-colors,"se-parte")
+}
+.tu-anecdota-fnt{color:map-get($font-nav-colors,"tu-anecdota");}
+
+//Extend de color de fuente , fuente etc
+
+.card-jose{width: 30rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        p{color: #15171b;}
+        margin: 20px}
+
+.card-jack{
+        @extend.card-jose;}
+
+.card-aitor{
+        //@extend.card-jose;
+        //width: 30rem;
+        @include card(30rem,sans-serif)
+}
+
