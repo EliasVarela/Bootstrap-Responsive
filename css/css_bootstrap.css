@@ -11,30 +11,114 @@
   padding: 10px;
   text-align: center;
 }
+.titulo-carru p {
+  color: rgb(231, 34, 34);
+}
 .titulo-carru img {
   width: 500px;
   height: 500px;
 }
 
 /*------------------Aside-------------------------*/
-aside p {
-  font-size: 1em;
+@media (min-width: 320px) {
+  aside p {
+    font-size: 10px;
+  }
+  aside ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+  }
+  aside ul li {
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    font-size: 11px;
+  }
+  aside ul li a {
+    align-content: center;
+    text-decoration: none;
+  }
 }
-aside ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-  text-decoration: none;
+@media (min-width: 480px) {
+  aside p {
+    font-size: 18px;
+  }
+  aside ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+  }
+  aside ul li {
+    border: 2px solid #999;
+    margin-bottom: 35px;
+    font-size: 17px;
+  }
+  aside ul li a {
+    text-decoration: none;
+  }
 }
-aside ul li {
-  margin: 0px;
-  padding-right: 0px;
-  font-size: 1em;
+@media (min-width: 768px) {
+  aside p {
+    font-size: 24px;
+  }
+  aside ul {
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+  }
+  aside ul li {
+    border: 2px solid #999;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    font-size: 17px;
+  }
+  aside ul li a {
+    text-decoration: none;
+  }
 }
-aside ul li a {
-  text-decoration: none;
+@media (min-width: 1024px) {
+  aside p {
+    font-size: 30px;
+  }
+  aside ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+  }
+  aside ul li {
+    border: 3px solid #999;
+    margin-bottom: 45px;
+    font-size: 22px;
+  }
+  aside ul li a {
+    text-decoration: none;
+  }
 }
-
+@media (min-width: 1360px) {
+  aside p {
+    font-size: 34px;
+  }
+  aside ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+  }
+  aside ul li {
+    border: 3px solid #999;
+    margin-bottom: 55px;
+    font-size: 26px;
+  }
+  aside ul li a {
+    text-decoration: none;
+  }
+}
 /*----------------------Footer----------------------------*/
 footer {
   border: 1px solid black;
@@ -87,6 +171,21 @@ footer .facebook {
 footer img {
   height: 100%;
   width: 100%;
+}
+
+.form-1 {
+  align-items: center;
+  text-align: center;
+  padding-left: 12%;
+  color: white;
+  font-size: 22px;
+}
+.form-1 input, .form-1 #inputGroupPrepend {
+  margin: 12px;
+}
+
+.form-derechos {
+  margin: 20px;
 }
 
 /*-------------------Grid-De-Galeria----------------------------*/
@@ -180,8 +279,11 @@ footer img {
 }
 
 h1 {
-  margin: 15px;
-  padding-top: 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px;
+  color: red;
 }
 h1 small {
   font-weight: normal;
@@ -201,6 +303,12 @@ h1 small {
   width: 50%;
 }
 
+.segunda-nav ul li {
+  border-radius: 15px;
+  margin: 5px;
+  border: 1px solid #999;
+}
+
 /*---------------------------Configuracion-basica-BODY------------------------*/
 body {
   background-image: linear-gradient(to right, #3f1e63 0%, #15171b 100%);
@@ -209,7 +317,6 @@ body p {
   color: white;
 }
 
-h1,
 h2,
 h3,
 a {
@@ -217,27 +324,31 @@ a {
 }
 
 .titulo-h2 {
-  font-size: 27px;
+  font-size: 19px;
 }
 
 /*-----------------------SE-PARTE--------------------*/
 .img-uwu {
   display: flex;
-  height: 600px;
   width: 400px;
+  margin-top: 20px;
 }
 .img-uwu img {
   width: 100%;
-  height: 500px;
+  height: 700px;
   object-fit: cover;
 }
 
-.libros-1 p {
+.main-separte h2 {
+  text-align: center;
+}
+
+.libros-1 p, .libros-2 p {
   color: black;
 }
 
-.libros-2 p {
-  color: black;
+.libros-1, .libros-2 {
+  gap: 15px;
 }
 
 /*----------------Variables---------------*/
@@ -260,7 +371,7 @@ a {
 .card-jose, .card-jack {
   width: 30rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 20px;
+  margin-top: 20px;
 }
 .card-jose p, .card-jack p {
   color: #15171b;

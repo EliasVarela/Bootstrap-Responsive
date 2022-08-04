@@ -1,6 +1,9 @@
 //Header-body-Seccion Libros--
-h1{ margin: 15px;
-    padding-top:60px; 
+h1{ align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:60px; 
+    color: red;
     small{font-weight:normal;
         line-height: 1;
         color: #999;}
@@ -15,3 +18,9 @@ h1{ margin: 15px;
     padding-left: 5px;
     float: left;
     width: 50%;}
+
+.segunda-nav ul{
+                li {border-radius: 15px;
+                    margin: 5px;
+                    border:1px solid #999;}
+}

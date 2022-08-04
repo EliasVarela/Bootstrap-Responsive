@@ -1,13 +1,90 @@
 /*------------------Aside-------------------------*/
-aside{p{font-size: 1em;}
-        ul {margin: 0px;
-            padding: 0px;
-            list-style: none;
-            text-decoration: none;
-                li{margin: 0px ;
-                    padding-right: 0px;
-                    font-size: 1em;
-                        a{text-decoration: none;}
+
+
+
+//@MEDIA- DE ASIDE@320PX------
+
+@media(min-width:320px){
+    aside{p{font-size: 10px;}
+            ul {margin: 0px;
+                padding: 0px;
+                list-style: none;
+                text-decoration: none;
+                    li{
+                        border: 2px solid #999;
+                        margin-bottom: 20px;
+                        font-size: 11px;
+                            a{align-content: center;
+                                text-decoration: none;}
+}
+}
+}
+}
+
+//Media- De ASIDE @480PX------------
+@media(min-width:480px){
+    aside{p{font-size: 18px;}
+            ul {margin: 0px;
+                padding: 0px;
+                list-style: none;
+                text-decoration: none;
+                    li{border: 2px solid #999;
+                        margin-bottom:  35px ;
+                        font-size: 17px;
+                            a{text-decoration: none;}
+}
+}
+}
+}
+
+//Media- De Aside @768PX-----------
+@media(min-width:768px){
+    aside{p{font-size: 24px;}
+            ul {text-align: center;
+                justify-content: center;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                text-decoration: none;
+                    li{ 
+                        border: 2px solid #999;
+                        border-radius: 50%;
+                        margin-bottom: 35px;
+                        font-size: 17px;
+                            a{text-decoration: none;}
+}
+}
+}
+}
+
+//Media- De Aside @1024PX-----------
+@media(min-width:1024px){
+    aside{p{font-size: 30px;}
+            ul {margin: 0px;
+                padding: 0px;
+                list-style: none;
+                text-decoration: none;
+                    li{ border: 3px solid #999;
+                        margin-bottom: 45px ;
+                        font-size: 22px;
+                            a{text-decoration: none;}
+}
+}
+}
+}
+
+//Media- De Aside @1360PX -----------
+@media(min-width:1360px){
+    aside{p{font-size: 34px;}
+            ul {margin: 0px;
+                padding: 0px;
+                list-style: none;
+                text-decoration: none;
+                    li{ border: 3px solid #999;
+                        margin-bottom: 55px ;
+                        font-size: 26px;
+                            a{text-decoration: none;}
+}
 }
 }
 }

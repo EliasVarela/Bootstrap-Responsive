@@ -25,7 +25,8 @@ $font-nav-colors:(
 .card-jose{width: 30rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         p{color: #15171b;}
-        margin: 20px}
+        margin-top: 20px;
+        }
 
 .card-jack{
         @extend.card-jose;}
