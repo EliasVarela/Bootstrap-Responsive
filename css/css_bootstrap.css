@@ -31,9 +31,9 @@
     text-decoration: none;
   }
   aside ul li {
-    border: 2px solid #999;
     margin-bottom: 20px;
-    font-size: 11px;
+    font-size: 7px;
+    border: 2px solid #999;
   }
   aside ul li a {
     align-content: center;
